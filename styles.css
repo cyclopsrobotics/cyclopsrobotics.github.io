@@ -3,10 +3,9 @@
 * {
     font-family: "Martian Mono", monospace;
     color: #ffffff;
-    font-size: 10vw;
+    font-size: 7vw;
 }
-
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 10cm) {
     * {
         font-size: 48px;
     }
@@ -16,16 +15,15 @@ body {
     background-color: #190952;
 }
 .homepage {
-    width: 80%;
-    min-height: 80vh;
+    width: 90%;
+    min-height: 90vh;
     background-color: #190952;
-    color: #ffffff;
     display: flex;
     flex-wrap: wrap;
-    gap: 10%;
     align-items: center;
     justify-content: center;
-    padding: 10vh 10% 10vh 10%
+    padding: 5vh 5%;
+    gap: 5vw;
 }
 
 @keyframes blink {
@@ -48,7 +46,7 @@ body {
 
 .eye_container {
     max-width: 100%;
-    width: 500px;
+    width: 100%;
     aspect-ratio: 2;
     display: flex;
     align-items: center;
@@ -69,7 +67,7 @@ body {
 .pupil {
     width: 37.5%;
     aspect-ratio: 1;
-    border-radius: 101px;
+    border-radius: 100%;
     background-color: #190952;
 }
 
@@ -77,7 +75,6 @@ body {
     display: table-cell;
     vertical-align: middle;
     width: 1fr;
-    color: #ffffff;
 }
 
 
@@ -91,38 +88,10 @@ mark {
     background: #fff;
 }
 
-.links {
-    width: 80%;
-    min-height: 80vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10%;
-    align-items: center;
-    justify-content: center;
-    padding: 10vh 10% 10vh 10%;
-    background: #ffffff;
-    color: #190952;
-}
 
-@media (prefers-color-scheme: dark) {
-    .links {
-        background: #000000;
-        color: #ffffff;
-    }
-}
 
-.link-list {
-    display: table-cell;
-    vertical-align: middle;
-    width: 1fr;
-}
-
-.link-list * {
-        color: #190952;
-}
-
-@media (prefers-color-scheme: dark) {
-    .link-list * {
-        color: #ffffff;
+@media screen and (min-width: 10cm) {
+    .eye_container {
+        width: 500px;
     }
 }
