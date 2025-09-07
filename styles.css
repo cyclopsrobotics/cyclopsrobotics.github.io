@@ -12,6 +12,9 @@
     }
 }
 
+body {
+    background-color: #190952;
+}
 .homepage {
     width: 80%;
     min-height: 80vh;
