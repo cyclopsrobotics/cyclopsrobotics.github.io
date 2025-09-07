@@ -3,14 +3,13 @@
 * {
     font-family: "Martian Mono", monospace;
     color: #ffffff;
-    font-size: 7vw;
+    font-size: 48px;
     text-transform: uppercase;
 }
 
 body {
     background-color: #190952;
 }
-
 .homepage {
     width: 90%;
     min-height: 90vh;
