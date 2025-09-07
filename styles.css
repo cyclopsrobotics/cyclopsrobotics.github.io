@@ -45,7 +45,7 @@ body {
 }
 
 .eye_container {
-    max-width: 100%;
+    max-width: 10cm;
     width: 100%;
     aspect-ratio: 2;
     display: flex;
@@ -86,12 +86,4 @@ body {
 mark {
     color: #190952;
     background: #fff;
-}
-
-
-
-@media screen and (min-width: 10cm) {
-    .eye_container {
-        width: 500px;
-    }
 }
