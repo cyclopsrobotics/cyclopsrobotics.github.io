@@ -6,11 +6,6 @@
     font-size: 7vw;
     text-transform: uppercase;
 }
-@media screen and (min-width: 10cm) {
-    * {
-        font-size: 48px;
-    }
-}
 
 body {
     background-color: #190952;
