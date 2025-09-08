@@ -21,6 +21,15 @@ body {
     padding: 5vh 5%;
     gap: 5vw;
 }
+.links {
+    width: 90%;
+    background-color: #190952;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 5%;
+    gap: 5vw;
 
 @keyframes blink {
     0% {
